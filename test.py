@@ -6,8 +6,6 @@ def Game():
 
     guess = words [random.randint(0, 4)]
 
-    print (guess)
-
     prompt = input("please select either please, apple, orange, pear, tree : ")
 
     if prompt == guess :
